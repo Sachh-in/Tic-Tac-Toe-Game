@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding: 10px 0 0 0;
+    font-size: 3rem;
+    margin-top: 8vmin;
+}
+
+body{
+    text-align: center;
+    background-color:rgba(5, 88, 88, 0.622); 
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5vmin;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    margin-top: 10vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: gold;
+    color: black;
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+#reset {
+    height: 50px;
+    width: 160px;
+    margin-top: 5vh;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.886);
+    border-radius: 0.5rem;
+    border:none;
+}
+
+#reset:hover{
+    background-color:white;
+    color: rgb(255, 0, 0);
+    font-size:1.3rem ;
+    transition: 0.7s;
+    font-weight: bold;
+}
+
+#newbtn{
+    height: 50px;
+    width: 160px;
+    margin-top: 3vh;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.886);
+    border-radius: 0.5rem;
+    border:none;
+}
+
+#newbtn:hover{
+    background-color:white;
+    color: rgb(255, 0, 0);
+    font-size:1.3rem ;
+    transition: 0.7s;
+    font-weight: bold;
+}
+
+.msg-con p {
+    color: gold;
+    font-size: 3rem;
+}
+
+.hide{
+    display:none;
+}
